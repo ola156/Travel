@@ -1,0 +1,25 @@
+.c-item {
+  height: 550px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4);
+}
+
+.cl-ul li {
+  margin-left: 25px;
+}
+
+.contact {
+  background-color: rgb(240, 240, 240);
+  height: 150px;
+  padding-top: 25px;
+}
+
+@media (max-width: 1224px) {
+  .contact {
+    height: 200px;
+  }
+}
